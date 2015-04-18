@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>slides</title>
+    <meta name="author" content="(Anand Reddy Pandikunta)"/>
+
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/reveal.min.css"/>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/theme/simple.css" id="theme"/>
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+     if( window.location.search.match( /print-pdf/gi ) ) {
+       var link = document.createElement( 'link' );
+       link.rel = 'stylesheet';
+       link.type = 'text/css';
+       link.href = 'http://cdn.jsdelivr.net/reveal.js/2.5.0/css/print/pdf.css';
+       document.getElementsByTagName( 'head' )[0].appendChild( link );
+     }
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class='footer'>
+        <span>Anand Reddy Pandikunta (@chillaranand)</span>
+        <a href="http://www.avilpage.com">http://avilpage.com</a>
+      </div>
+      <style>
+       .reveal .footer {
+         position: absolute;
+         bottom: 1em;
+         left: 1em;
+         font-size: 0.5em;
+       }
+      </style>
+
+
+      <div class="slides">
+
+        <section>
+          <section id="sec-1" >
+            <h2>What Made Emacs Different?</h2>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>What Is Emacs?</h2>
+            <p>Emacs is a text editor.</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>What Made Emacs Different?</h2>
+            <p>Everything is a buffer!!</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Everything is a buffer???</h2>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>What is a buffer?</h2>
+            <p>Where text resides in emacs.</p>
+            <p>File, Dir, Process</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Processes are buffers</h2>
+            <p>Python, Shell, SQL, Git, IRC, SX</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Composable feature set</h2>
+            <a href="http://thinkrelevance.com/blog/2008/05/14/what-you-can-learn-from-ido-el">Stuart Halloway</a>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Select and act</h2>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Select</h2>
+            <p>Select file</p>
+            <p>Select opened files</p>
+            <p>Select files in other projects</p>
+            <p>Select projects</p>
+            <p>Select files on remote machine</p>
+            <p>Select commands</p>
+            <p>Select any list</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-2" >
+            <h2>Act</h2>
+            <p>Open file</p>
+            <p>Rename file</p>
+            <p>Delete file</p>
+            <p>Multiple select</p>
+            <p>Miscellaneous</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-23" >
+            <h2>Why Emacs Everywhere?</h2>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-23" >
+            <h2>What can you do with emacs?</h2>
+            <p>Text areas</p>
+            <p>Presentations</p>
+            <p>Draw pictures</p>
+            <p>Org mode</p>
+            <p>List interpreter</p>
+            <p>Blog editor</p>
+            <p>Video editor</p>
+            <p>Package manager</p>
+            <p>Spreadsheet</p>
+            <p>Twitter client</p>
+            <p>Vi emulator</p>
+            <p>Calendar</p>
+            <p>Document viewer</p>
+            <p>Mail client</p>
+            <p>Listenting to music</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-23" >
+            <h2>Summary</h2>
+            <p>Emacs is a text editor.</p>
+            <p>Everything is a buffer.</p>
+          </section>
+        </section>
+
+        <section>
+          <section id="sec-23" >
+            <h2>Questions?</h2>
+          </section>
+        </section>
+
+
+      </div>
+    </div>
+
+    <script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/lib/js/head.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/js/reveal.min.js"></script>
+
+    <script>
+     // Full list of configuration options available here:
+     // https://github.com/hakimel/reveal.js#configuration
+     Reveal.initialize({
+
+       controls: true,
+       progress: true,
+       history: false,
+       center: true,
+       slideNumber: true,
+       rollingLinks: false,
+       keyboard: true,
+       overview: true,
+
+       theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+       transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+       transitionSpeed: 'default',
+
+       // Optional libraries used to extend on reveal.js
+       dependencies: [
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+         { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+       ]
+     });
+    </script>
+  </body>
+</html>
